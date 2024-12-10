@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+body{
+    font-family: "Tajawal";
+    text-align: right;
+    direction: rtl;
+}
+
+.navbar{
+     box-shadow: 1px 3px 8px #8a8a8a;
+}
+
+/*section home*/
+.home{
+    height: 500px;
+    background-size: cover;
+    background-image: url(../images/slide-bg-1.jpg);
+}
+
+.home-item{
+    margin-right: 50%;
+    margin-top: 10%;
+    width:40%;
+}
+
+.home-item h2{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.home-item p{
+    color: rgb(231, 231, 231);
+}
+
+@media(max-width: 768px){
+    .home{
+        height: 400px;
+        background-position-x: -300px;
+    }
+    .home-item{
+        width: 100%;
+        margin-right: 5%;
+    }
+}
+
+/*section work*/
+.work-item h2{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight:500;
+}
+
+.work-item p{
+    color: rgb(82, 82, 82);
+}
+
+.work-item{
+     margin: 5% 0px;
+}
+
+.work-item p{
+    padding: 15px 0px 15px 70px;
+}
+
+.work-item h2{
+    padding: 0px 0px 5px 0px;
+}
+
+.image1{
+    height: 400px;
+    padding: 20px;
+    background-size: cover;
+    background-image: url(../images/project-slide1.jpg);
+}
+
+.row1{
+    margin: 80px 0px;
+}
+
+.yellow{
+    background-color: rgb(255, 208, 0);
+    height: 4px;
+    width: 130px;
+}
+
+
+.bloges img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.blog-line{
+    width: 100%;
+    display:block;
+    height: 1px;
+    background-color: rgb(202, 202, 202);
+    margin: 10px 0px 20px 0px;
+}
+
+.title-bloges{
+    margin-bottom: 15px;
+}
+
+.title-bloges div{
+    height: 3px;
+    width: 70px;
+}
+
+.section-bloges{
+    background-color: #ececec;
+    padding: 80px 0px 50px 0px;
+}
+
+/*why us section*/
+.why-us-item img{
+    width: 300px;
+    height: 250px;
+}
+
+.why-us-text{
+    padding: 0px 15px;
+}
+
+.section-why-us{
+       padding: 50px 0px;
+}
+
+.title-why-us{
+    margin-bottom: 30px;
+}
+
+/*how we are*/
+.how-we-are-section{
+    margin: 50px 0px;
+}
+
+.how-we-are-image img{
+    width: 100%;
+    background-size: cover;
+}
+
+/*sertifection section*/
+.sirt-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sirt-text{
+    padding: 0px 10px;
+}
+
+.sirt-section{
+    margin: 80px 0px 120px 0px;
+}
+
+.over{
+    width: 100%;
+    position: absolute;
+    color:white;
+    padding: 130px 50px;
+
+}
+
+.section-subscribe img{
+    width: 100%;
+
+}
+
+.over input{
+    width: 50%;
+    display: inline-block;
+}
+.over p{
+    padding: 20px 0px;
+}
+
+.section-subscribe {
+    text-align: center;
+}
+
+/*last news section*/
+
+.section-last-news{
+    margin: 150px 0px;
+}
+
+.card{
+    margin: 10px 0px;
+}
+.section-subscribe{
+    background-image: url("../images/subscribe-our-newsletter-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+}
+
+/*footer section*/
+.section-footer{
+    background-color: #071c33;
+    padding: 50px 0px;
+    color:white;
+}
+.section-footer-two-section{
+    background-color: #04101e;
+    color: white;
+    padding: 20px 0px;
+    width: 100%;
+
+}
+
+.footer-one .a {
+    margin: 20px 0px;
+}
+
+
+
+
+
+
